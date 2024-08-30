@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Replace 'YOUR_TOKEN' with your bot token
-TOKEN = '7078810229:AAEXLMZ0QEv7Ne23YHF1YYYZEKh_MztvyAM'
+TOKEN = ''
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Bot is alive')
